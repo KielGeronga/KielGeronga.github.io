@@ -14,18 +14,16 @@
     <nav>
         <a href="#home">Home</a>
         <a href="#posts">Posts</a>
-        <!-- in-page link -->
-        <a href="#media">See my cars</a>
-        <!-- opens a new page of my website in the same tab -->
-        <a href="aboutme.html">About Me</a>
         <!-- opens a page of another website in a new tab -->
-         <a href="https://www.facebook.com/me" target="_blank" title="Open my Facebook account to know me more">Visit my social media</a>
+         <a href="https://www.facebook.com/ezekiel.geronga.2025" target="_blank" title="Open my Facebook account to know me more">This is my FB Account</a>
     </nav>
     <main id="home">
         <section>
             <article>
-                <h2>Post Title</h2>
-                <p>Post content goes here...</p>
+                <h2>Kiel</h2>
+                <p>Hello! I'm Ezekiel Geronga, but you can call me Kiel. I live in our province of Nueva Ecija, and I'm here at Manila taking my desired course.</p>
+
+                </p>
             </article>
         </section>
         <section id="posts">
