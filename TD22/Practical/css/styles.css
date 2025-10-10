@@ -1,0 +1,22 @@
+body {
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: stretch;
+    background-color: #dae1f8b6;
+}
+
+.container {
+    background-color: #dae1f8b6;
+}
+
+header {
+    background-color: #0078d7;
+    color: white;
+    text-align: center;
+}
+
+footer {
+    background-color: #0078d7;
+    color: white;
+    text-align: center;
+}
