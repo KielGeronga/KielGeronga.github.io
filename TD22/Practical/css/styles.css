@@ -1,25 +1,109 @@
+header {
+    background: linear-gradient(to bottom, #556dbcb6, #dae1f8b6);
+    color: #caddffe0;
+    text-align: center;
+    letter-spacing: 1.5rem;   /* space between letters */
+    line-height: 1.5in;      /* space between lines */
+}
+header img {
+    opacity: 0.84632;      /* 0 is fully transparent, 1 is fully opaque */
+    border-radius: 5pt;
+    width: 50%;      /* set desired width */
+    height: auto;      /* keeps aspect ratio */
+    align-items: center;
+}
+
 body {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    text-align: justify;
     justify-content: center;
     align-items: stretch;
 }
 
-.navbar {
-    background-color: #dae1f8b6;
+footer {
+    background: linear-gradient(to bottom, #556dbcb6, #dae1f8b6);
+    text-align: center;
 }
+
+
 
 main {
     background: linear-gradient(to bottom, #dae1f8b6, #556dbcb6);
+    color: rgb(17, 19, 60)
 }
 
-header {
-    background: linear-gradient(to bottom, #556dbcb6, #dae1f8b6);
-    color: white;
+.navbar {
     text-align: center;
+    background-color: #dae1f8b6;
 }
 
-footer {
-    background-color: #0512ff29;
-    color: white;
+a:hover {
+    text-decoration: none;
+}
+a {
+    color: #556dbcb6;
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+
+#New {
+    color: rgb(17, 19, 60);
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+#New h2 {
+    letter-spacing: 1rem;
+    line-height: 3rem;
+    font-weight: bold;
+}
+
+
+#Features {
+    color: rgb(17, 19, 60);
+    align-items: start;
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+#Features h2 {
+    letter-spacing: 1rem;
+    line-height: 3rem;
+    font-weight: bold;
+}
+#Features img {
+    width: 100%;
+    height: auto;
+    border-radius: 5pt;
+    opacity: 0.84632;
+}
+#Features ul {
+    font-size: 1.2rem;
+    color: #222;
+    line-height: 2;
+}
+
+
+#Specs {
+    color: rgb(17, 19, 60);
+    text-align: justify;
+    font-size: rem;    
+    line-height: 2rem;
+}
+#Specs h2 {
+    letter-spacing: 1rem;
+    font-weight: bold;
+    line-height: 3rem;
     text-align: center;
+}
+#Specs ul {
+    color: #dae1f8b6;
+    font-size: 1.67rem;
+    background: #556dbc76;
+    line-height: 2rem;
+}
+
+#Price {
+    color: rgb(17, 19, 60);
+    font-weight: bold;
+    font-size: 1.2rem;
 }
