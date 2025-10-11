@@ -84,16 +84,3 @@ table {
     border-radius: 5pt;
     padding: 2rem;
 }
-
-
-#Order Now{
-    grid-area: Order Now;
-    display: grid;
-    gap: 2rem;
-    padding: 1rem;
-}
-
-
-
-
-
