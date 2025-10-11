@@ -106,4 +106,9 @@ a {
     color: rgb(17, 19, 60);
     font-weight: bold;
     font-size: 1.2rem;
+    letter-spacing: 0.3rem;
+}
+table {
+    width: 65%;
+    background: #e6eaf8b6;
 }

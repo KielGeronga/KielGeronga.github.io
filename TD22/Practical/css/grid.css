@@ -61,6 +61,7 @@ main {
     padding-left: 1.5rem;
 }
 
+
 #Specs {
     grid-area: Specs;
     display: grid;
@@ -73,19 +74,17 @@ main {
     margin: 4rem;
 }
 
+
 #Price {
     display: grid;
     padding: 2rem;
-    letter-spacing: 0.3rem;
-    font-size: 1.2rem;
-    color: #1a237e;
+
 }
 table {
-    width: 65%;
-    background: #e6eaf8b6;
     border-radius: 5pt;
     padding: 2rem;
 }
+
 
 #Order Now{
     grid-area: Order Now;
