@@ -1,22 +1,25 @@
 body {
-    font-family: sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     justify-content: center;
     align-items: stretch;
+}
+
+.navbar {
     background-color: #dae1f8b6;
 }
 
-.container {
-    background-color: #dae1f8b6;
+main {
+    background: linear-gradient(to bottom, #dae1f8b6, #556dbcb6);
 }
 
 header {
-    background-color: #0078d7;
+    background: linear-gradient(to bottom, #556dbcb6, #dae1f8b6);
     color: white;
     text-align: center;
 }
 
 footer {
-    background-color: #0078d7;
+    background-color: #0512ff29;
     color: white;
     text-align: center;
 }

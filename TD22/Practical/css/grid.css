@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display:flexbox;
+}
+
+
+body {
+    min-height: 100vh;
+}
+
+header {
+    grid-area: header;
+    gap: 1rem;
+    padding: rem;
+}
+footer {
+    grid-area: footer;
+    padding: 1rem;
+}
+main {
+    grid-area: main;
+    display:block;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+
+.navbar {
+    grid-area: navbar;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem;
+}
+
+
+#New {
+    grid-area: New;
+    display: grid;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+#Features {
+    grid-area: Features;
+    display: grid;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+#Specs {
+    grid-area: Specs;
+    display: grid;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+#Price {
+    grid-area: Price;
+    display: grid;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+#Order Now{
+    grid-area: Order Now;
+    display: grid;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+
+
+
+
