@@ -77,9 +77,11 @@ main {
 
 #Price {
     display: grid;
-    padding: 2rem;
-
+    gap: 2rem;
+    padding: 1rem;
 }
+
+
 table {
     border-radius: 5pt;
     padding: 2rem;
