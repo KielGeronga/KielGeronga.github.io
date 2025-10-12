@@ -66,19 +66,50 @@ main {
     grid-area: Specs;
     display: grid;
     gap: 0rem;
+    padding: 2rem;
 }
 #Specs ul {
     border-radius: 5pt;
+    margin: 2rem;
+    padding: 4rem;
 }
+
 
 #Price {
     display: grid;
     gap: 2rem;
     padding: 1rem;
 }
-
-
 table {
     border-radius: 5pt;
     padding: 2rem;
+}
+
+
+#Order {
+    display: grid;
+    border-radius: 5pt;
+    gap: 2rem;
+    padding: 2rem;
+}
+button {
+    border-radius: 3pt;
+    padding: 0.5rem;
+    border-style: hidden;
+}
+label {
+    gap: 1rem;
+    padding: 0.5rem;
+}
+input {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 3pt;
+    border-style: hidden;
+}
+select {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 3pt;
+    border-style: hidden;
 }

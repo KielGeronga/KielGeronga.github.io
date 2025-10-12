@@ -23,6 +23,7 @@ body {
 footer {
     background: linear-gradient(to bottom, #556dbcb6, #dae1f8b6);
     text-align: center;
+    color: #556dbcb6;
 }
 
 
@@ -87,6 +88,7 @@ a {
     line-height: 2rem;
 }
 #Specs h2 {
+    letter-spacing: 1rem;
     font-weight: bold;
     line-height: 3rem;
     text-align: center;
@@ -98,6 +100,7 @@ a {
     line-height: 2rem;
 }
 
+
 #Price {
     font-size: 1.2rem;
     line-height: 2rem;
@@ -106,8 +109,29 @@ a {
     text-align: left;
     font-weight: bold;
 }
-
 table {
     width: 65%;
     background: #e6eaf8b6;
+}
+
+
+#Order {
+    color: #0e152eb4;
+    font-size: 1.5rem;
+}
+button {
+    background: #556dbc42;
+    color: #dae1f8b6;
+    font-size: 1rem;
+}
+label {
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+input {
+    background-color: #dae1f8b9;
+}
+select {
+    background-color: #dae1f8b9;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
 }
