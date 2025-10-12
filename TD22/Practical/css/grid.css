@@ -70,10 +70,7 @@ main {
 }
 #Specs ul {
     border-radius: 5pt;
-    padding: 4rem;
-    margin: 4rem;
 }
-
 
 #Price {
     display: grid;

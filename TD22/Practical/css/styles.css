@@ -48,7 +48,6 @@ a {
 
 
 #New {
-    color: rgb(17, 19, 60);
     font-size: 1.2rem;
     line-height: 2rem;
 }
@@ -60,7 +59,6 @@ a {
 
 
 #Features {
-    color: rgb(17, 19, 60);
     align-items: start;
     font-size: 1.2rem;
     line-height: 2rem;
@@ -84,13 +82,11 @@ a {
 
 
 #Specs {
-    color: rgb(17, 19, 60);
     text-align: justify;
     font-size: rem;    
     line-height: 2rem;
 }
 #Specs h2 {
-    letter-spacing: 1rem;
     font-weight: bold;
     line-height: 3rem;
     text-align: center;
@@ -103,7 +99,6 @@ a {
 }
 
 #Price {
-    color: rgb(17, 19, 60);
     font-size: 1.2rem;
     line-height: 2rem;
 }
