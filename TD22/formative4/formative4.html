@@ -3,12 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Adding Interactivity with JavaScript</title>
 </head>
+
+
+
 <body>
    
 <div>
-  <h2>Sign In</h2>
+    <header>
+    <h2 class="signin-header">Sign In</h2>
+    </header>
 </div>
 
 
@@ -30,12 +35,82 @@
 
 </form>
 
+<script>
+    // Get the button using the correct selector (by name attribute)
+    let button = document.querySelector("button[name='signin']");
+
+    // Use 'mouseover' instead of 'mousehover' and add quotes
+    button.addEventListener('mouseover', () => {
+        button.style.color = "white";
+        button.style.fontSize = "20px";
+    });
+
+    // Add quotes around 'mouseout'
+    button.addEventListener('mouseout', () => {
+        button.style.color = "white";
+        button.style.fontSize = "16px";  // Changed to 16px to restore original size
+    });
+
+    button.addEventListener("click", () => {
+    alert("You have successfully signed in!");
+    });
+</script>
+
+
+<style>
+    body {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: #24563f;
+        background-color: #31694E;
+        margin: 0;
+        padding: 20px;
+    }
+
+    header {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #F0E491;
+}
+
+    form {
+        background: #F0E491;
+        padding: 20px;
+        border-radius: 10px;
+        outline: 5px  solid #658C58;
+        box-shadow: 0 16px 22px #163828;
+        max-width: 400px;
+        margin: auto;
+    }
+
+    div {
+        margin-bottom: 15px;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    input[type="email"],
+    input[type="password"] {
+        width: 100%;
+        padding: 7px;
+        box-sizing: border-box;
+        border-radius: 7px;
+        border-color: #46b680;
+        color: #24563f;
+    }
+
+    button {
+        padding: 10px 15px;
+        background-color: #658C58;
+        color: white;
+        border: none;
+        border-radius: 7px;
+    }
+</style>
+
 
 </body>
 </html>
-
-
-<script>
-
-    
-</script>
