@@ -36,21 +36,22 @@
 </form>
 
 <script>
-    // Get the button using the correct selector (by name attribute)
+    // using button
     let button = document.querySelector("button[name='signin']");
 
-    // Use 'mouseover' instead of 'mousehover' and add quotes
+    // hover on text
     button.addEventListener('mouseover', () => {
         button.style.color = "white";
         button.style.fontSize = "20px";
     });
 
-    // Add quotes around 'mouseout'
+    // hover out
     button.addEventListener('mouseout', () => {
         button.style.color = "white";
-        button.style.fontSize = "16px";  // Changed to 16px to restore original size
+        button.style.fontSize = "16px";
     });
 
+    // after signing in
     button.addEventListener("click", () => {
     alert("You have successfully signed in!");
     });
@@ -94,6 +95,7 @@
 
     input[type="email"],
     input[type="password"] {
+        font-family: Georgia, 'Times New Roman', Times, serif;
         width: 100%;
         padding: 7px;
         box-sizing: border-box;
@@ -103,11 +105,16 @@
     }
 
     button {
+        font-family: Georgia, 'Times New Roman', Times, serif;
         padding: 10px 15px;
         background-color: #658C58;
         color: white;
         border: none;
         border-radius: 7px;
+    }
+
+    button:hover {
+        background-color: #24563f89;
     }
 </style>
 
